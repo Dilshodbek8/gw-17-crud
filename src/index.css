@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tvars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 30px;
+}
+
+.tvars div {
+  padding: 30px;
+  border: 2px solid chocolate;
+  background-color: khaki;
+  border-radius: 30px;
+  box-shadow: 0 3px 6px gray;
+}
